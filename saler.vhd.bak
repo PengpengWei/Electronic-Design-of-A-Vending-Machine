@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity saler is
+end saler;
+
+architecture arch_saler of saler is
+begin
+end arch_saler;

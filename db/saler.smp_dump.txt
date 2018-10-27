@@ -1,0 +1,53 @@
+
+State Machine - |saler|state_mng:sm|exst
+Name exst.s3 exst.s2 exst.s1 exst.s0 
+exst.s0 0 0 0 0 
+exst.s1 0 0 1 1 
+exst.s2 0 1 0 1 
+exst.s3 1 0 0 1 
+
+State Machine - |saler|Test_bal_mng_dis:bmd|balance_dis:dis|exst
+Name exst.s3 exst.s2 exst.s1 exst.s0 
+exst.s0 0 0 0 0 
+exst.s1 0 0 1 1 
+exst.s2 0 1 0 1 
+exst.s3 1 0 0 1 
+
+State Machine - |saler|Test_bal_mng_dis:bmd|balance_mng:mng|exst
+Name exst.s3 exst.s2 exst.s1 exst.s0 
+exst.s0 0 0 0 0 
+exst.s1 0 0 1 1 
+exst.s2 0 1 0 1 
+exst.s3 1 0 0 1 
+
+State Machine - |saler|Test_good_mng_dis:gmd|good_mng:gm|pagest
+Name pagest.sfin pagest.sdn pagest.sup pagest.sno pagest.sre 
+pagest.sre 0 0 0 0 0 
+pagest.sno 0 0 0 1 1 
+pagest.sup 0 0 1 0 1 
+pagest.sdn 0 1 0 0 1 
+pagest.sfin 1 0 0 0 1 
+
+State Machine - |saler|Test_good_mng_dis:gmd|good_mng:gm|exst
+Name exst.s3 exst.s2 exst.s1 exst.s0 
+exst.s0 0 0 0 0 
+exst.s1 0 0 1 1 
+exst.s2 0 1 0 1 
+exst.s3 1 0 0 1 
+
+State Machine - |saler|Test_good_mng_dis:gmd|good_dis:gd|exst
+Name exst.s3 exst.s2 exst.s1 exst.s0 
+exst.s0 0 0 0 0 
+exst.s1 0 0 1 1 
+exst.s2 0 1 0 1 
+exst.s3 1 0 0 1 
+
+State Machine - |saler|Test_good_mng_dis:gmd|page_btn:pb|st
+Name st.ensdn st.susdn st.scdn st.ensup st.susup st.scup st.noact 
+st.noact 0 0 0 0 0 0 0 
+st.scup 0 0 0 0 0 1 1 
+st.susup 0 0 0 0 1 0 1 
+st.ensup 0 0 0 1 0 0 1 
+st.scdn 0 0 1 0 0 0 1 
+st.susdn 0 1 0 0 0 0 1 
+st.ensdn 1 0 0 0 0 0 1 
