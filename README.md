@@ -34,7 +34,7 @@ _The design adopts a model of finite-state machine. Because of the isolation of 
 
 ### Reset
 
-![reset](./pics/reset.png)
+![reset](./pics/Reset.png)
 
 After plugging in, the reset button should be pressed to ensure the circuit works as expected. When the vending machine is reset, the balance is set as 0 and all the drinks are replenished.
 
